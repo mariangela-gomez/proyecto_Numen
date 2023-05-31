@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     background-color: #FFCD00;
-    box-shadow: 0 3px 10px 1px rgb(0 0 0 /35%);
+    box-shadow: 0 3px 10px 1px rgb(0 0 0 /55%);
 }
 .foto-sobrenosotras {
     height: 65%;
@@ -21,7 +21,7 @@
     font-size: 20px;
     text-align: center;
     padding: 15px;
-    font-family: 'Moon Dance', cursive;
+    font-family: Courgette, cursive;
     line-height: 1.5rem;
 }
 .descripcion-titulo {
