@@ -1,4 +1,6 @@
 import Formulario from "./components/Formulario";
+import Landing from "./components/Landing";
+
 
 
 function App() {
@@ -6,6 +8,7 @@ function App() {
    <div className="app">
     <h1>Weather app</h1>
 		<Formulario />
+    <Landing/>
    </div>
   
   );
