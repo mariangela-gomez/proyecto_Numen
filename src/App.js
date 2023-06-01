@@ -5,7 +5,6 @@ import Busqueda from "./components/paginas/Busqueda";
 import SobreNosotras from "./components/paginas/SobreNosotras";
 import Formulario from "./components/Formulario";
 
-
 function App() {
   return (
     <div className="app">
