@@ -2,13 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../css/navBar.css";
  
-
 const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-            <img src="/public/logo512.png" alt="Logo" />
+          <a href="NavBar">
+            <img 
+            src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg"
+            alt="" 
+            width="30" 
+            height="24"
+            />
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -21,24 +27,24 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
+            <ul className="navbar-nav ms-auto ">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link anclas" aria-current="page" to="/">
                   Inicio
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Busqueda.js">
+                <Link className="nav-link anclas" to="/Busqueda">
                   Busqueda
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/SobreNosotras.js">
+                <Link className="nav-link anclas" to="/SobreNosotras">
                   Sobre Nosotras
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Contacto.js">Contacto</Link>
+                <Link className="nav-link anclas" to="/Contacto">Contacto</Link>
               </li>
             </ul>
           </div>
