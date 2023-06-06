@@ -5,6 +5,8 @@ import Busqueda from "./components/paginas/Busqueda"
 import Formulario from "./components/Formulario";
 import Landing from "./components/Landing";
 import SobreNosotras from "./components/SobreNosotras";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Formulario />
         <Landing />
         <SobreNosotras />
+        <Footer />
       </Router>
     </div>
   );
