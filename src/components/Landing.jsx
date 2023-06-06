@@ -6,7 +6,7 @@ import '../css/landingpage.css'
 
 const Landing = () => {
   return (
-    <div className="container">
+    <div className="containerlanding">
       <video className="video-background" autoPlay muted loop>
         <source src={videoSource} type="video/mp4" />
       </video>
