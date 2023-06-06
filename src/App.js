@@ -1,10 +1,12 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
-import Busqueda from "./components/Busqueda";
+import Inicio from "./components/paginas/Inicio";
+import Busqueda from "./components/paginas/Busqueda"
 import Formulario from "./components/Formulario";
+import Landing from "./components/Landing";
 import SobreNosotras from "./components/SobreNosotras";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -18,6 +20,11 @@ function App() {
           <Route path="/contacto" element={<Formulario/>} />
         </Routes>
        
+        <Navbar />
+        <Formulario />
+        <Landing />
+        <SobreNosotras />
+        <Footer />
       </Router>
     </div>
   );
