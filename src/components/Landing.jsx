@@ -1,16 +1,23 @@
 import React from 'react';
-import videoSource from '../assets/video-fondo.mp4';
-import imagerain from '../assets/img-lluvia-azul.png';
-import '../css/landingpage.css'
-<asset></asset>
+import videoLluvia from '../assets/video-fondo-lluvia.mp4';
+import videoNieve from '../assets/video-fondo-nieve.mp4';
+import videoSol from '../assets/video-fondo-sol.mp4';
+import "../css/landingpage.css"
 
 const Landing = () => {
   return (
     <div className="containerlanding">
-      <video className="video-background" autoPlay muted loop>
-        <source src={videoSource} type="video/mp4" />
-      </video>
-      <img src={imagerain} alt="fondo" />
+      <div className="video-container">
+      <video className="video-background1" autoPlay muted loop>
+          <source src={videoSol} type="video/mp4" />
+        </video>
+        <video className="video-background2" autoPlay muted loop>
+          <source src={videoLluvia} type="video/mp4" />
+        </video>
+        <video className="video-background3" autoPlay muted loop>
+          <source src={videoNieve} type="video/mp4" />
+        </video>
+      </div>
       <button className="image-caption">Que no te tome por sorpresa</button>
     </div>
   );
