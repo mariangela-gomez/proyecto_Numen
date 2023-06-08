@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFCD00;
+    background-color: rgba(167, 229, 235, 0.969);
     box-shadow: 0 3px 10px 1px rgb(0 0 0 /35%);
 }
 .foto-sobrenosotras {

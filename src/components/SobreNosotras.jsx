@@ -6,7 +6,7 @@ function SobreNosotras(){
     return(
         <div className="contenedor-sobrenosotras">
         <img className="foto-sobrenosotras" 
-        src={require ("../assets/video-fondo.mp4")} 
+        src={require ("../assets/Imagen_de_WhatsApp.jpg")} 
         alt= "foto de estaciones"/> 
         <div className="contenedor-descripcion">
           <p className="descripcion-titulo"> Buen tiempo, Buen Clima </p>
