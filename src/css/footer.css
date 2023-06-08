@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Montserrat:wght@300&family=Moon+Dance&display=swap');
 footer {
     background-color: #1c9cf6;
     color: #ffffff;
     text-align: center;
     padding: 30px 0px 10px 0px;
+		font-family: 'Montserrat', sans-serif;
 }
 
 .footer-container {
@@ -18,16 +20,20 @@ footer {
 .boxf ul {
     list-style: none;
     padding: 0;
+		
 }
 
 .boxf li {
     margin-bottom: 10px;
     color: #ffffff;
+		font-family: 'Montserrat', sans-serif;
+		list-style-type: none;
 }
 
 .boxf Link {
     color: #ffffff;
     text-decoration: none;
+		list-style-type: none;
 }
 
 .boxf Link:hover {
@@ -37,6 +43,7 @@ footer {
 .boxf i {
     color: #ffffff;
     font-size: 18px;
+		list-style-type: none;
 }
 
 

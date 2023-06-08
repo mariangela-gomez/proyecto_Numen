@@ -1,26 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Montserrat:wght@300&family=Moon+Dance&display=swap');
-
+*{
+	margin:0;
+  padding:0;
+}
 .contenedor-sobrenosotras {
-    width:  1300px;
-    height: 650px;
-    margin: 10px 10px 50px; 
+    width:  100%;
+ 
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #FFCD00;
     box-shadow: 0 3px 10px 1px rgb(0 0 0 /35%);
 }
-.foto-sobrenosotras {
-    height: 65%;
-    width: auto;
-    margin-left: 10px;  
-}
+
 
 .contenedor-descripcion {
     width: 100%;
     font-size: 20px;
     text-align: center;
-    padding: 15px;
+    padding: 40px;
     font-family: 'Moon Dance', cursive;
     line-height: 1.5rem;
 }

@@ -5,9 +5,7 @@ import '../css/sobrenosotras.css';
 function SobreNosotras(){
     return(
         <div className="contenedor-sobrenosotras">
-        <img className="foto-sobrenosotras" 
-        src={require ("../assets/video-fondo.mp4")} 
-        alt= "foto de estaciones"/> 
+        
         <div className="contenedor-descripcion">
           <p className="descripcion-titulo"> Buen tiempo, Buen Clima </p>
           <p className="descripcion-subtitulo">Que no te tome por sorpresa</p>
