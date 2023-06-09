@@ -1,3 +1,7 @@
+body {
+	background-image: url('../assets/fondo2.jpg');
+	background-size: cover;
+}
 .container {
 	max-width: 450px;
 	margin: 0 auto;
@@ -46,7 +50,7 @@ textarea {
 
 button[type="submit"] {
 	padding: 10px;
-	background-color: #1c9cf6;
+	background-color: #19c2fbc4;
 	color: #fff;
 	border: none;
 	cursor: pointer;

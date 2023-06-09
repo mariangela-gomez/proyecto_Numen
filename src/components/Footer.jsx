@@ -47,7 +47,7 @@ const Footer = () =>{
             </div>
             
         </div>
-        <hr />
+        {/* <hr /> */}
         <div class="site-info">
             <p>
                 <i>2023. Todos los derechos reservados</i>

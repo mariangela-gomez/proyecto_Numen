@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Montserrat:wght@300&family=Moon+Dance&display=swap');
 .navbar {
-  background-color: #1c9cf6;
+  background-color: #1c9bf600;
   font-family: 'Montserrat', sans-serif;
 }
 .anclas:hover {
@@ -9,15 +9,15 @@
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color: #fff;
-    text-shadow: 0 0 15px #fff;
-  font-size: 1.3rem;
+  color: #010101;
+  text-shadow: 0 0 15px #fff;
+  font-size: 1.8rem;
   margin-left: 0.5rem;
   margin-bottom: 1rem;
   text-align: right;
 }
 .logo{
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
 }
 

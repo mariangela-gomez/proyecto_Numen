@@ -4,12 +4,11 @@
   padding:0;
 }
 .contenedor-sobrenosotras {
-    width:  85%;
- 
+    margin: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(167, 229, 235, 0.969);
+    background-color: rgba(167, 229, 235, 0);
     box-shadow: 0 3px 10px 1px rgb(0 0 0 /35%);
 }
 
@@ -26,12 +25,14 @@
     font-size: 2.5rem;
 		font-family: Courgette, cursive;
 		font-weight: bold;
+    
 }
 .descripcion-subtitulo{
   font-size: 1.8rem;
 	font-family: Courgette, cursive;
     margin-top: 10px;
     padding-bottom: 30px;
+   
 }
 
 .descripcion-completa {
@@ -39,4 +40,5 @@
     font-family: Courgette, cursive;
     text-align: justify;
     margin-top: 5px;
+    
 }
