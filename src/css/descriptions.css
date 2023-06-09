@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+    color: white;
 }
 
 .card {
@@ -12,6 +13,7 @@
     background-color: var(--section-overlay);
     padding: 0.6rem;
     border-radius: 0.4rem;
+    color: white;
 }
 
 .description-card-icon {
