@@ -8,12 +8,14 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
           <a href="NavBar">
-            <img 
-            src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg"
-            alt="" 
-            width="30" 
-            height="24"
+            <img className="logo" 
+            src={require ("../assets/logo.png")} 
+            alt= "foto de estaciones"
             />
+            <img 
+            src=""
+            /*src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg"*/
+            alt="" />
           </a>
           <button
             className="navbar-toggler"
