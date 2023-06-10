@@ -27,7 +27,6 @@
   transform: translateX(-50%);
   text-align: center;
   box-shadow: 19px 16px 13px -3px rgba(0, 0, 0, 0.1);
-  border-radius: 5%;
   font-size: 2rem;
   color: #ffcd00;
   background-color: rgba(32, 31, 31, 0.329);
@@ -35,6 +34,7 @@
   margin: 10px;
   border: none;
   z-index: 2;
+  text-decoration: none;
 }
 
 /* Estilos para pantallas de tamaño pequeño (teléfonos) */

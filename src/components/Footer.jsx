@@ -1,8 +1,14 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link, useLocation } from "react-router-dom";
 import '../css/footer.css'
 
-const Footer = () =>{
+const Footer = () => {
+    const location = useLocation();
+    const landingPage = location.pathname === '/';
+  
+    if (landingPage) {
+      return null;
+    } else {
 	return (
 		<footer>
         <div class="footer-container">
@@ -55,5 +61,6 @@ const Footer = () =>{
         </div>
     </footer>
 	);
+}
 }
  export default Footer;
