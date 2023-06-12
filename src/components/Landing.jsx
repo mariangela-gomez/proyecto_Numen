@@ -19,7 +19,7 @@ const Landing = () => {
           <source src={videoNieve} type="video/mp4" />
         </video>
       </div>
-      <Link to="/clima" className="image-caption">Que no te tome por sorpresa</Link>
+      <Link to="/inicio" className="image-caption">Que no te tome por sorpresa</Link>
     </div>
   );
 };

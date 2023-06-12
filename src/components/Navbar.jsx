@@ -13,14 +13,14 @@ const Navbar = () => {
       <div>
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
-            <a href="NavBar">
-              <img
+					<Link className="nav-link anclas" to="/inicio">
+					<img
                 className="logo"
                 src={require("../assets/logo.png")}
                 alt="foto de estaciones"
               />
-              <img src="" alt="" />
-            </a>
+                  </Link>
+           
             <button
               className="navbar-toggler"
               type="button"
@@ -35,14 +35,12 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto ">
                 <li className="nav-item">
-                  <Link className="nav-link anclas" aria-current="page" to="/">
+                  <Link className="nav-link anclas" aria-current="page" to="/inicio">
                     Inicio
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link anclas" to="/Clima">
-                    Clima
-                  </Link>
+                
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link anclas" to="/SobreNosotras">
