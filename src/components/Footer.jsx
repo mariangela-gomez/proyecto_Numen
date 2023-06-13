@@ -18,11 +18,9 @@ const Footer = () => {
                 <li>
                      <Link to ='/inicio' className='text-reset'>Inicio</Link> 
                 </li>
+                
                 <li>
-                     <Link to ='/clima' className='text-reset'>Clima</Link> 
-                </li>
-                <li>
-                     <Link to ='/nosotras' className='text-reset'>Sobre Nosotras</Link> 
+                     <Link to ='/SobreNosotras' className='text-reset'>Sobre Nosotras</Link> 
                 </li>
 
                 <li>
