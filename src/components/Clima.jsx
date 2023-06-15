@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "../css/clima.css"
-import hotBg from '../assets/hot.jpg';
-import coldBg from '../assets/cold.jpg';
 import Descriptions from "./Descriptions";
 import { getFormattedWeatherData } from "../assets/weatherService";
 
@@ -9,17 +7,14 @@ const Clima = () => {
   const [city, setCity] = useState("Buenos Aires");
   const [weather, setWeather] = useState(null);
   const [units, setUnits] = useState('metric');
-  const [bg, setBg] = useState(coldBg);
+  
 
   useEffect(() => {
     const fetchWeatherData = async () => {
       const data = await getFormattedWeatherData(city, units);
       setWeather(data);
 
-      // Dynamic background
-      const threshold = units === "metric" ? 20 : 60;
-      if (data.temp <= threshold) setBg(coldBg);
-      else setBg(hotBg);
+  
     };
 
     fetchWeatherData();
@@ -43,8 +38,8 @@ const Clima = () => {
       
       </div>
 
-      <div className="clima" style={{ backgroundImage: `url(${bg})` }}>
-        <div className="overlay">
+      <div className="clima">
+        <div>
           {weather && (
             <div className="container-clima">
               <div className="section section-inputs">

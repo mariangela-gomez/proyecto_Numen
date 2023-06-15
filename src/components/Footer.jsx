@@ -32,7 +32,7 @@ const Footer = () => {
             
             <div class="boxf">
                 <h3>Proyecto Clima</h3>
-               <p>Este proyecto fue diseñado y desarrollado por el grupo 1 de Mujeres Conectadas para la Academia Numen. La tecnologías utilizada fue  React.</p>
+               <p>Este proyecto fue desarrollado por el Grupo № 1 de Mujeres Conectadas para la Academia Numen. Hemos utilizado la tecnología de React en su diseño y desarrollo, aprovechando su potencial para crear una experiencia interactiva y dinámica.</p>
             </div>
 
             <div class="boxf">

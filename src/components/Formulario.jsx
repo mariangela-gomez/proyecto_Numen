@@ -13,7 +13,7 @@ function Formulario() {
 	const [enviado, setEnviado] = useState(false);
 
 	const onSubmit = (data) => {
-		console.log(data); // podria utilizar formsubmit?
+		console.log(data); 
 		setEnviado(true);
 		reset();
 		setTimeout(() => {

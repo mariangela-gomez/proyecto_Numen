@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Montserrat:wght@300&family=Moon+Dance&display=swap');
 body {
 	background-image: url('../assets/fondo2.jpg');
 	background-size: cover;
@@ -6,11 +7,10 @@ body {
 	max-width: 450px;
 	margin: 0 auto;
 	padding: 20px;
-	border: 1px solid #ccc;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 3px 10px 1px rgb(0 0 0 /35%);
 	border-radius: 8px;
 	margin-top: 10px;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 10px;
 }
 
@@ -50,14 +50,16 @@ textarea {
 
 button[type="submit"] {
 	padding: 10px;
-	background-color: #19c2fbc4;
+	background-color: #09d1efc4;
 	color: #fff;
+	font-weight: bolder ;
 	border: none;
 	cursor: pointer;
+	border-radius: 10px;
 }
 
 button[type="submit"]:hover {
-	background-color: #19c3fb;
+	background-color: #a22750c4;
 }
 
 .mensaje-exito {
